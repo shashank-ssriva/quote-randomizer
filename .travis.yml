@@ -5,8 +5,8 @@ services:
 
 language: python
 
-#script:
-#  - python -m pytest -v
+script:
+  - hostname
 
 after_success:
   - sh .deploy_scripts/deploy_dockerhub.sh
