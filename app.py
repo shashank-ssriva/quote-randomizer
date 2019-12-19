@@ -16,7 +16,7 @@ MAX_TRIES = 3
 def wisdom():
     quote, author = get_random_quote()
     if not quote:
-        error = 'Something went terribly wrong getting your quote, try again please!'
+        error = 'Something went terribly wrong getting your quote, try again please! Maybe the API server is down.'
         return render_template('index.html', error=error), 500
 
     bio = get_author_bio(author)
