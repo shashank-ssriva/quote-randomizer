@@ -4,6 +4,8 @@ sudo: required
 addons:
   sonarcloud:
     organization: "shashank-ssriva-github"
+    token:
+      secure: "m0Kx2aqLv/AmnimKN/eNfRkwTCdD4gYRLNrrjcOUzi+ul1uHPm+mhp6fki1iKa1PhsVXJPvueIrGZBSEUr8rSgatvHwjsjTBSDCEiic+Gt2vNlh8WqbYIWFPK8JruANVY6yKVuyl4SWwsrA28fW9GqeeTj3WKRYgyS2H3z3u6V6bFFYfSSEoGnj15dDy7z3FdbuBWxFT6BkU2vgwY2zffs9ydzaYYmiOSC6aTtDf+8cHnlXZQF8HeXtflXrsgz1KzRM3O3jIEEGXMyJX+ouEYK3jUvwvnY3Y+lwwB7eTQBekuGYag5TXD+wzB3FIzJ+MDsGdzl4Unzxlob/9rEsQ1ZlxF2ld4T0p47+GTd9fRAoezZfkqquHGCH/n/1XUj3BZK432PGTGW9ZKHObBSlh72xcEM7FqxkEWVc27QUMJetzcSK7PAgInZIHctPvmWDTQDnvJUKT7jkAWf1kPoBjliQM+10ddwHXzWahk+fT7+LSEugwlhoyIGjFq69t9M9VuwgYfl4NOX6rl5JkuPqBDknPUixghIhwcjR5cIIPR3PnrDaRrfolqhSCCieNtPufWb7TqJkZQWlimH9/yIY6xNsPlmtYM3ZOiVe0M2Z6jMViTeJoROntR0D2bx+6/Q9/XiXHZbPhTdy4QHrKeo5f/f+uoIK4BdOhqZ8YP3ve0fc="
 
 services:
   - docker
