@@ -1,4 +1,5 @@
 click
+coverage
 Flask
 itsdangerous
 Jinja2

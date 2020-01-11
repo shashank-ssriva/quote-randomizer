@@ -1,4 +1,9 @@
+dist: trusty
 sudo: required
+
+addons:
+  sonarcloud:
+    organization: "shashank-ssriva-github"
 
 services:
   - docker
@@ -7,6 +12,11 @@ language: python
 
 script:
   - python3 -m pytest -v
+
+  # code coverage test  
+  - coverage report -m app.py
+
+
 
 after_success:
   - sh .deploy_scripts/deploy_dockerhub.sh
