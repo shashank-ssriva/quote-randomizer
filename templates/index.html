@@ -38,7 +38,7 @@
 					<div class="col-md-6 col-md-offset-3">
 						
 						<div class="align-center">
-							<h2 class="slogan">Wisdom of the Ages - Shashank Srivastava</h2>
+							<h2 class="slogan" name="page_heading">Wisdom of the Ages - Shashank Srivastava</h2>
 							<br>
 							{% if quote %}
 							<h2>
@@ -51,7 +51,7 @@
 								<h2>-Anonymous</h2>
 								<br>
 							{% endif %}
-							<button type="button" class="btn btn-info btn-lg" onClick="Refresh()">Another Quote!</button>
+							<button type="button" name="random_quote" class="btn btn-info btn-lg" onClick="Refresh()">Another Quote!</button>
 							<br>
 							<br>
 							<p>{{bio}}</p>
@@ -59,7 +59,7 @@
 							<h2>
 								{{ error }}
 								<br>
-								<button type="button" class="btn btn-info btn-lg" onClick="Refresh()">Try again!</button>
+								<button type="button" name="try_again" class="btn btn-info btn-lg" onClick="Refresh()">Try again!</button>
 							</h2>
 							{% endif %}
 						</div>

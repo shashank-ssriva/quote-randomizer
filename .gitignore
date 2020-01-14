@@ -1,2 +1,8 @@
 __pycache__/app.cpython-37.pyc
 tests/__pycache__/test_app.cpython-37-PYTEST.pyc
+.pytest_cache/v/cache/lastfailed
+.pytest_cache/v/cache/nodeids
+.pytest_cache/v/cache/stepwise
+tests/__pycache__/test_app.cpython-37-pytest-5.0.0.pyc
+tests/__pycache__/test_selenium.cpython-37-pytest-5.0.0.pyc
+.vscode/settings.json
