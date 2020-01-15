@@ -6,3 +6,4 @@ tests/__pycache__/test_app.cpython-37-PYTEST.pyc
 tests/__pycache__/test_app.cpython-37-pytest-5.0.0.pyc
 tests/__pycache__/test_selenium.cpython-37-pytest-5.0.0.pyc
 .vscode/settings.json
+__pycache__/test_selenium.cpython-37-pytest-5.0.0.pyc
